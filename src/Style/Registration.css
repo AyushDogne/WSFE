@@ -1,0 +1,127 @@
+
+.container-fluide {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.img1 {
+    background-image:url("/src/Images/img5.jpg");
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup-button{
+    width:400px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+
+.bordar {
+    background-color: rgba(34, 34, 29, 0.527);
+    border-radius: 10px;
+    padding: 30px;
+    width: auto;
+    border: 2px solid rgb(212, 201, 201);
+    margin-top: 10px;
+
+}
+
+.bordar h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+/* Inputs */
+.inputs {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    outline: none;
+    margin-top:50px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input div {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    background-color: #fff;
+    color: #000;
+}
+
+.bi {
+    color: white;
+    margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .bordar {
+        width: 90%;
+        padding: 20px;
+    }
+    .inputs {
+        width: 150px;
+    }
+    .signup-button
+    {
+        width: 300px;
+    }
+
+}
+@media(min-width:600)
+{
+    .inputs {
+        width: 100px;
+        font-size: 0.9rem;
+    }    
+}
+
+@media (max-width: 480px) {
+    .bordar {
+        width: 100%;
+        padding: 15px;
+    }
+    .inputs {
+        width: 150px;
+        font-size: 0.9rem;
+    }
+    .bi {
+        width: 16px;
+        height: 16px;
+    }
+    .signup-button
+    {
+        width: 100px;
+    }
+
+}

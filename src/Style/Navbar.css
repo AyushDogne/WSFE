@@ -1,0 +1,25 @@
+#Navbar
+{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+#Navbar:hover
+{
+    border-bottom: 3px solid rgb(255, 0, 0);
+}
+
+#Navbar-main-nav
+{
+    background-color: #e3f2fd;
+    text-align: center ;
+}
+
+#heading-nav
+{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
